@@ -1,0 +1,47 @@
+.App {
+  display: grid;
+  grid-template-columns: 60px auto;
+  grid-template-rows: 100vh;
+  grid-template-areas:
+    "side recc recc";
+}
+
+.sidebar {
+
+  grid-area: side;
+  background-color: rgb(84, 84, 84);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  box-shadow: rgba(255, 255, 255, 0.763) 0.5px 0px 1px;
+}
+
+.Icon {
+  box-shadow: rgba(6, 24, 44, 0.067) 0px 0px 0px 2px, rgba(6, 24, 44, 0.226) 0px 4px 6px -1px, rgba(255, 255, 255, 0.796) 0px 1px 0px inset;
+}
+
+.Home{
+  box-shadow: rgba(6, 24, 44, 0.118) 0px 0px 0px 2px, rgba(6, 24, 44, 0.753) 0px 4px 6px -1px, rgba(255, 255, 255, 0.796) 1px 1px 0px inset;
+
+}
+
+.recommend {
+  grid-area: recc;
+  position: relative;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .App {
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    grid-template-areas: "recc";
+
+  }
+
+  .sidebar {
+    display: none;
+  }
+
+}

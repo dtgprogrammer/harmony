@@ -1,0 +1,13 @@
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read, write: if false;
+    }
+  }
+}
+All third party reads and writes will be denied
+
+
+gs://harmony-2ed98.appspot.com/Counting Stars - OneRepublic_320- [PagalWorld.NL].mp3

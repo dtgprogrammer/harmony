@@ -1,0 +1,57 @@
+.logo h1 {
+  color: rgb(255, 255, 255);
+  /* width: fit-content; */
+  /* padding: 1%; */
+  border-radius: 5px;
+  /* margin: 1%; */
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Q {
+  width: 100%;
+  height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.Q h2 {
+  margin-left: 5%;
+}
+
+.Lib {
+  background-color: #393737;
+  border-radius: 5px;
+  margin: 2%;
+  box-shadow: rgba(255, 255, 255, 0.497) -2px 0px 7px, rgba(255, 255, 255, 0.552) 0px -2px 3px, rgba(0, 0, 0, 0.612) 0px 4px 6px, rgba(0, 0, 0, 0.848) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.Library {
+  max-height: 300px;
+  overflow-y: scroll;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.miniList {
+  display: flex;
+  margin: 3%;
+  padding: 2%;
+  border-radius: 5px;
+}
+
+.miniList img {
+  border-radius: 10px;
+  margin-right: 2%;
+}
+
+.miniList {
+  align-items: center;
+}

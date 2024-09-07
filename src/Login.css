@@ -1,0 +1,38 @@
+.login {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    min-height: 100vh;
+    padding-left: 30vw;
+    padding-right: 30vw;
+    padding-top: 10vh;
+}
+
+.sign {
+    background-color: antiquewhite !important;
+    color: black !important;
+}
+
+.login h1 {
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+    padding: 10px;
+}
+
+.login button {
+    margin-top: 30px;
+    padding: 10px;
+    color: aliceblue;
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: rgb(72, 154, 255);
+    border: none;
+    border-radius: 3px;
+}
+
+.login button:hover {
+    cursor: pointer;
+}
+
+.login button:active {
+    background-color: aliceblue;
+}
